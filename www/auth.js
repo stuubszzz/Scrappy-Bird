@@ -77,6 +77,7 @@ style.textContent = `
 document.head.appendChild(style);
 document.body.appendChild(overlay); document.body.appendChild(bar); document.body.appendChild(board);
 overlay.hidden = true; board.hidden = true;
+if (!CFG.facebookLogin) overlay.querySelector('[data-action=facebook]').remove();
 
 const msg = (text, ok) => { const m = $('#auth-msg'); m.textContent = text || ''; m.className = 'msg' + (ok ? ' ok' : ''); };
 const busy = (on) => overlay.querySelectorAll('button').forEach(b => b.disabled = on);
@@ -131,7 +132,7 @@ board.addEventListener('click', (e) => { if (e.target.dataset.action === 'close-
 function renderOverlay() {
   const signedIn = !!Auth.user;
   $('#auth-form').hidden = signedIn;
-  overlay.querySelector('[data-action=facebook]').hidden = signedIn;
+  const fb = overlay.querySelector('[data-action=facebook]'); if (fb) fb.hidden = signedIn;
   overlay.querySelector('[data-action=forgot]').hidden = signedIn;
   const guestBtn = overlay.querySelector('[data-action=guest]');
   guestBtn.textContent = signedIn ? 'Sign out' : 'Play as guest';

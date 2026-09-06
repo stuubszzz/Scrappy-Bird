@@ -5,4 +5,6 @@ window.SCRAPPY_CONFIG = {
   supabaseKey: 'sb_publishable_Db0s7NSrxVHYUczZIb6SeQ_5b-JrZL5',
   // Deep link the app registers for OAuth and email-confirmation returns.
   nativeRedirect: 'scrappybird://auth',
+  // Set to true after configuring the Facebook provider in Supabase (see PLAY_STORE_GUIDE.md, Part 3).
+  facebookLogin: false,
 };
