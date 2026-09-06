@@ -1,0 +1,20 @@
+{
+  "appId": "education.finestfuture.scrappybird",
+  "appName": "Scrappy Bird",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false,
+    "backgroundColor": "#1a1a1a",
+    "webContentsDebuggingEnabled": false,
+    "captureInput": true
+  },
+  "plugins": {
+    "StatusBar": {
+      "overlaysWebView": true,
+      "style": "DARK"
+    }
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}

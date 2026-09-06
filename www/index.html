@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://wbfloxbqeykiwtnzruiu.supabase.co wss://wbfloxbqeykiwtnzruiu.supabase.co; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, viewport-fit=cover">
+<title>Scrappy Bird</title>
+<style>
+  html, body { margin:0; height:100%; background:#1a1a1a; overflow:hidden;
+    font-family: 'Segoe UI', Arial, sans-serif; touch-action: manipulation; user-select:none; }
+  #wrap { position:fixed; inset:0; display:flex; align-items:center; justify-content:center; }
+  canvas { image-rendering: pixelated; box-shadow: 0 0 40px rgba(0,0,0,.6); }
+  #hint { position:fixed; bottom:8px; width:100%; text-align:center; color:#888; font-size:12px; }
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="game" width="288" height="512"></canvas></div>
+<div id="hint">Space / click / tap to flap &nbsp;&middot;&nbsp; &larr; &rarr; pick a bird &nbsp;&middot;&nbsp; M to mute</div>
+<script src="vendor/supabase.js"></script>
+<script src="config.js"></script>
+<script src="game.js"></script>
+<script src="auth.js"></script>
+</body>
+</html>
