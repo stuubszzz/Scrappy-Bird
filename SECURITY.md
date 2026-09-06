@@ -31,7 +31,7 @@ There is no personal data in the app beyond an email address (or a Facebook-prov
 
 ## Settings you must confirm in the Supabase dashboard
 
-Open https://supabase.com/dashboard/project/wbfloxbqeykiwtnzruiu
+Open https://supabase.com/dashboard/project/zbzawivuqbujsgcijyup
 
 1. **Authentication > Providers > Email**: keep "Confirm email" ON. Set minimum password length to 8.
 2. **Authentication > URL Configuration**: add `scrappybird://auth` to Redirect URLs. Without it, Facebook sign-in and email confirmation links cannot return to the app.

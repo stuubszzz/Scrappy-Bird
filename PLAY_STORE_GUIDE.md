@@ -31,9 +31,9 @@ Skip this if you are happy launching with email sign-in and guest play only. Fac
 1. Go to https://developers.facebook.com, sign in, and click **Create App**. Choose "Consumer" type. Name it Scrappy Bird.
 2. In the app dashboard, add the **Facebook Login** product.
 3. Under **Facebook Login > Settings**, in "Valid OAuth Redirect URIs" paste:
-   `https://wbfloxbqeykiwtnzruiu.supabase.co/auth/v1/callback`
+   `https://zbzawivuqbujsgcijyup.supabase.co/auth/v1/callback`
 4. Under **App settings > Basic**, copy the **App ID** and **App Secret**.
-5. Open https://supabase.com/dashboard/project/wbfloxbqeykiwtnzruiu, go to **Authentication > Providers > Facebook**, turn it on, paste the App ID and App Secret, save.
+5. Open https://supabase.com/dashboard/project/zbzawivuqbujsgcijyup, go to **Authentication > Providers > Facebook**, turn it on, paste the App ID and App Secret, save.
 6. Still in Supabase, go to **Authentication > URL Configuration** and add `scrappybird://auth` to Redirect URLs. Save.
 7. Back in the Meta dashboard, switch the app from Development to **Live** mode (top of the page). Meta may ask you to add a privacy policy URL; use the one from Part 2.
 
