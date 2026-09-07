@@ -652,7 +652,7 @@ function drawBgParliament() {
   }
   // distance readout
   ctx.font = "bold 9px 'Segoe UI', Arial, sans-serif"; ctx.textAlign = 'right'; ctx.fillStyle = 'rgba(0,0,0,.45)';
-  if (state === 'play') ctx.fillText(t >= 1 ? 'Arrived at Parliament!' : Math.round((1 - t) * 100) + '% of the way', W - 8, GROUND_Y - 6);
+  if (state === 'play') ctx.fillText(t >= 1 ? 'Arrived at Parliament!' : Math.round(t * 100) + '% of the way to Parliament', W - 8, GROUND_Y - 6);
 }
 
 // =====================================================================
