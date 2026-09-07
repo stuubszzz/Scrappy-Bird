@@ -6,7 +6,7 @@ Scrappy Bird is an arcade game. You can play it without an account. If you choos
 
 **Playing as a guest.** Nothing leaves your device. Your best scores are saved locally only.
 
-**With an account.** We store your email address, a display name (taken from your email unless you change it), and your game scores with the time each run took. This data is used only to sign you in, save your best scores, and show display names on the leaderboard. It is stored by Supabase (our hosting provider) in the European Union and transmitted only over encrypted connections. Passwords are stored as one-way hashes; we never see them.
+**With an account.** We store your email address, a display name (taken from your email unless you change it), and your game scores with the time each run took. This data is used only to sign you in, save your best scores, and show display names on the leaderboard. It is stored by Supabase (our hosting provider) on servers in Singapore and transmitted only over encrypted connections. If you are in the EU, this means your data is transferred outside the EU under Supabase's standard contractual clauses. Passwords are stored as one-way hashes; we never see them.
 
 **What we do not do.** No analytics, no advertising SDKs, no tracking, no selling or sharing of data with anyone, no permissions beyond those Android requires to run the app.
 
