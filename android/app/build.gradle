@@ -8,10 +8,10 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "education.finestfuture.scrappybird"
+    namespace = "studio.stuubzzz.scrappybird"
     compileSdk = rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "education.finestfuture.scrappybird"
+        applicationId "studio.stuubzzz.scrappybird"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 7

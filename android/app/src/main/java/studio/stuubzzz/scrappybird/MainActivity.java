@@ -1,4 +1,4 @@
-package education.finestfuture.scrappybird;
+package studio.stuubzzz.scrappybird;
 
 import com.getcapacitor.BridgeActivity;
 

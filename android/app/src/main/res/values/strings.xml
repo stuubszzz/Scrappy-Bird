@@ -2,6 +2,6 @@
 <resources>
     <string name="app_name">Scrappy Bird</string>
     <string name="title_activity_main">Scrappy Bird</string>
-    <string name="package_name">education.finestfuture.scrappybird</string>
-    <string name="custom_url_scheme">education.finestfuture.scrappybird</string>
+    <string name="package_name">studio.stuubzzz.scrappybird</string>
+    <string name="custom_url_scheme">studio.stuubzzz.scrappybird</string>
 </resources>

@@ -58,4 +58,4 @@ Review usually takes 1 to 7 days.
 
 ## Package ID
 
-`education.finestfuture.scrappybird`. This cannot change after the first upload.
+`studio.stuubzzz.scrappybird`. This cannot change after the first upload.
