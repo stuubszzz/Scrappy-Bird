@@ -19,7 +19,7 @@ Same physics, same pipes, same one-tap control. Only the bird changes. How far c
   - Sammich, a banh mi with lettuce wings, weaving between bamboo steamer stacks on a Saigon street at sunset
   - Persu, a blue-and-white bird dodging jail bars on the way to Parliament, where random scandals in the flock wreck its flying
 - Faithful Flappy Bird feel: identical gravity, flap strength, pipe gap and speed
-- Progressive wing loss at score 8 and 18, each with its own handling
+- Progressive wing loss at score 50 and 100, each with its own handling
 - Feather bursts, screen shake and a bandaged, patched-up bird that shows its damage
 - Best score saved on device
 - Fully offline. No ads, no accounts, no data collection

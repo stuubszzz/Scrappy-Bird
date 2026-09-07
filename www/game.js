@@ -19,7 +19,7 @@ const GROUND_Y    = H - GROUND_H;
 
 // ---------- Scrappy difficulty stages ----------
 // Limbs are lost at these scores. Each stage changes how the bird responds.
-const STAGE_AT = [0, 8, 18];
+const STAGE_AT = [0, 50, 100];
 
 // ---------- Audio (tiny synth, no assets) ----------
 let audioCtx = null, muted = false;
@@ -614,7 +614,7 @@ function drawBgParliament() {
   skyGradient('#8fb8de', '#dfe9f2');
   clouds(0.1, 'rgba(255,255,255,.7)');
   // approach: 0 (far) .. 1 (arrived) based on score
-  const t = clamp(score / 40, 0, 1);
+  const t = clamp(score / 100, 0, 1);
   const sc = 0.45 + t * 0.9;
   const bw = 200 * sc, bh = 70 * sc, bx = W / 2 - bw / 2, by = GROUND_Y - 2;
   // birch trees behind the far plaza
